@@ -1,5 +1,4 @@
 -- Parte 1 – Crear Base de Datos --
-
 CREATE DATABASE biblioteca_db;
 
 -- Parte 2 – Crear Tablas --
@@ -41,7 +40,6 @@ VALUES
 ('L003','El Principito',96),
 ('L004','Clean Code',464);
 
-
 --Autores ● 3 registros
 INSERT INTO autores(id, nombre, pais)
 VALUES
@@ -77,8 +75,6 @@ inner join libro_autor la
 on l.codigo = la.la_libro_codigo_fk
 inner join autores a
 on la.la_autor_id_fk = a.id 
-
-
 
 --Consulta 2
 --Mostrar únicamente libros publicados después del año 2020.
@@ -125,11 +121,6 @@ Campo Tipo
 precio double precision*/
 ALTER TABLE libros
 add column precio double precision;  
-
-
-
-
-
 
 --● actualizar mínimo 3 precios
 UPDATE libros 
