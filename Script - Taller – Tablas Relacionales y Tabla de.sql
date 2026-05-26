@@ -1,6 +1,6 @@
 -- Parte 1 – Crear Base de Datos --
 
-CREATE DATABASE biclioteca_db;
+CREATE DATABASE biblioteca_db;
 
 -- Parte 2 – Crear Tablas --
 --Tabla libros
